@@ -2,16 +2,16 @@ import chromadb
 import requests
 
 client = chromadb.PersistentClient(path="./chroma_db")
-collection = client.create_collection(name="my_documents")
+collection = client.get_collection(name="my_documents")
 
-collection.add(
-    documents=[
-        "How do I reset my password? Go to Settings > Security > Reset Password.",
-        "Steps to recover your account access: contact support with your registered email.",
-        "What's the best pizza topping? Pepperoni is the most popular choice."
-    ],
-    ids=["doc1", "doc2", "doc3"]
-)
+#collection.add(
+#    documents=[
+#        "How do I reset my password? Go to Settings > Security > Reset Password.",
+#        "Steps to recover your account access: contact support with your registered email.",
+#        "What's the best pizza topping? Pepperoni is the most popular choice."
+#    ],
+#    ids=["doc1", "doc2", "doc3"]
+#)
 
 query = "I forgot my login credentials, help"
 
