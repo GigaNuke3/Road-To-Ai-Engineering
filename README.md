@@ -25,3 +25,8 @@ rm -rf ~/.cache/huggingface
 Careful with this one — it removes everything cached, so any other Hugging Face models you've downloaded would need to redownload next time you use them.
 
 Worth knowing: if you delete it now but want to run the embedding script again later, it'll just automatically redownload it — no need to reinstall `sentence-transformers` itself, just the model weights get pulled again.
+
+
+
+
+

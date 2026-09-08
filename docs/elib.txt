@@ -1,0 +1,1 @@
+E-LIB is a web-based Library Management Information System, built as a capstone project.

@@ -1,0 +1,4 @@
+Callama is an Electron desktop app that works as an offline 
+alternative to Claude Desktop, integrated with Ollama for running local AI models.
+
+
