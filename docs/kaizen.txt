@@ -1,1 +1,1 @@
-Kaizen is an Electron desktop app for productivity and self-improvement tracking.
+Kaizen is an Electron desktop app for productivity and self-improvement tracking. It lets users log daily habits, track streaks, set personal goals, and review weekly progress through simple charts. The app stores all data locally on the user's device.
